@@ -36,7 +36,7 @@ var FetchPending = null;
 
 var MessageCountHistory = [];
 var MessageRate = 0;
-
+var maxDistance = 0;
 var NBSP='\u00a0';
 
 function processReceiverUpdate(data) {
